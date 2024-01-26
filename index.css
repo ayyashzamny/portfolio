@@ -1,0 +1,335 @@
+
+
+.my_pic{
+  width: 580px;
+  float: right;
+  margin-top: 30px;
+
+}
+
+#pho{
+  margin-right: 30px;
+}
+ /*code for the typing effect*/
+
+
+@keyframes typing {
+  from { width: 0px; }
+}
+
+@keyframes blink-caret {
+  52% { border-color: transparent; }
+}
+
+@keyframes deleting {
+  to { width: 0px; }
+}
+
+#typing-effect {
+  display: inline-block;
+  border-right: 0.04em solid #404040;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(40, end), blink-caret 0.5s step-end infinite alternate;
+  font-size: 60px;
+  margin-top: -62px;
+  margin-left: 45px;
+  color: #404040;
+}
+
+.deleting-effect {
+  animation: deleting 1s steps(40, end), blink-caret 0.75s step-end infinite alternate;
+}
+
+#typing-placeholder {
+  visibility: hidden;
+}
+
+
+#welcome{
+  font-size: 80px;
+  margin-top: 150px;
+  margin-left: 45px;
+  color: #404040;
+}
+
+#contact{
+    border-radius: 30px;
+    background-color: #4169E1 ;
+    color: aliceblue;
+    border-bottom: 0 solid;
+    padding: 12px 20px;
+    margin-left: 45px;
+    text-decoration: none;
+}
+
+#contact:hover{
+  background-color: #6e91fc ;
+  
+}
+
+#about{
+  font-size: 40px;
+  text-align: center;
+  color: #4169E1 ;
+}
+
+#myself{
+  text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 19px;
+  color: rgb(88, 89, 90);
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+/*for education section*/
+fieldset {
+  background-color: #eeeeee;
+  border-radius: 10px ;
+  border-color: #4169E1  ;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.row {
+  display: flex;
+  
+}
+
+.column {
+  padding: 15px;
+}
+
+.column1 {
+  padding: 15px;
+  color: #404040;
+}
+
+#edu{
+  font-size: 40px;
+  text-align: center;
+  color: #4169E1 ;
+}
+
+.p2{
+  border-radius: 100%;
+  height: 200px;
+}
+
+/*Technical Skills*/
+#ts{
+  font-size: 40px;
+  text-align: center;
+  color: #4169E1 ;
+}
+
+.icon{
+  border-radius: 100%;
+  height: 150px;
+  float: left;
+}
+
+.container {
+  width: 100%;
+  background-color: #62b0dd;
+  border-radius: 50px;
+}
+
+
+.columnTS {
+  padding: 15px;
+}
+
+.column1TS {
+  margin-left: 180px;
+  margin-right: 40px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #196f97; border-radius: 50px;}
+.css {width: 90%; background-color: #196f97; border-radius: 50px;}
+.c {width: 95%; background-color: #196f97; border-radius: 50px;}
+.cplus {width: 80%; background-color: #196f97; border-radius: 50px;}
+.py {width: 70%; background-color: #196f97; border-radius: 50px;}
+.java {width: 65%; background-color: #196f97; border-radius: 50px;}
+.js {width: 60%; background-color: #196f97; border-radius: 50px;}
+.php {width: 60%; background-color: #196f97; border-radius: 50px;}
+.sql {width: 70%; background-color: #196f97; border-radius: 50px;}
+
+
+.two-col {
+  overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .col1,
+.two-col .col2 {
+  width: 48%;
+}
+
+.two-col .col1 {
+  float: left;
+}
+
+.two-col .col2 {
+  float: right;
+}
+
+.two-col label {
+  display: block;
+}
+
+
+/*Projects*/
+
+#pro{
+  font-size: 40px;
+  text-align: center;
+  color: #4169E1 ;
+}
+
+#pro_img{
+  height: 320px;
+  float:left;
+}
+
+#pro_head{
+  font-size: 30px;
+  color: rgb(59, 60, 61);
+}
+
+#pro_list{
+  font-size: 18px;
+  color: rgb(88, 89, 90);
+}
+
+#pro_set{
+  background-color: #ffffff;
+  border-radius: 10px ;
+  border-color: rgb(255, 255, 255)  ;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+  /*for the footer*/
+  .footer {
+      
+    width: 100%;
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    padding: 2px;
+  }
+
+  /*for the footer*/
+  .footer {
+            
+    width: 100%;
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    padding: 2px;
+  }
+
+    /*Contact */
+  #con{
+      font-size: 40px;
+      text-align: center;
+      color: #4169E1 ;
+  }
+
+  #me{
+      margin-left: 40px;
+      border-radius: 100%;
+      width: 90%;
+  }
+
+  .sm{
+      border-radius: 100%;
+      height: 70px;
+      float: left;
+  }
+  
+  #sm_name{
+      font-size: 20px;
+      background-color: rgb(59, 60, 61);
+      margin-right: 40px;
+      color: #eeeeee;
+      padding:8px;
+      border-radius: 50px;
+      text-align: center;
+  }
+
+  .columnsm{
+      padding: 20px;
+  }
+
+  .smtwo-col {
+      overflow: hidden;/* Makes this div contain its floats */
+  }
+
+  .smtwo-col:hover{
+      opacity: 85%;
+  }
+  
+  .smcol1{
+      width: 20%;
+  }
+
+  .smcol2 {
+      width: 80%;
+  }
+  
+  .smcol1 {
+      float: left;
+  }
+  
+  .smcol2 {
+      float: right;
+  }
+  
+  .smtwo-col label {
+      display: block;
+  }
+
+  .ps {width: 78%; background-color: #196f97; border-radius: 50px;}
+
+
+  .icon{
+  border-radius: 100%;
+  width: 100%;
+  height:auto;
+  }
+
+  /*Try images in SKills*/
+
+  * {
+  box-sizing: border-box;
+  }
+
+  .tycol {
+  float: left;
+  width: 14.28%;
+  height:auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+  /* Clearfix (clear floats) */
+  .tyrow::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+  }
