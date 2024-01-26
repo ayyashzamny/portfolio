@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="Home stylesheet" href="index.css">
+        <link rel="Home stylesheet" href="head.css">
+        <title>Ayyash Zamny</title>
+    </head>
+
+    <style>
+      
+    </style>
+    <body>
+      
+
+        <!--Page up Button-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+        
+        <script>
+          // Get the button
+          let mybutton = document.getElementById("myBtn");
+
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            } else {
+            mybutton.style.display = "none";
+            }
+          }
+
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+        </script>
+
+        <div class="header">
+          <p class="logo">
+              <span style="color: #4169E1;">Ayyash</span>
+              <span style="color: #404040;">Zamny</span>
+          </p><br>
+      
+          <!--
+      <div class="header-right">
+            <a class="active" href="index.html">My Profile</a>
+            <a href="award.php">Awards</a>
+            <a href="photo.php">Photography</a>
+          </div>
+        
+        -->
+          
+
+        </div>
+
+        <br><br><br>
+        
+        <img src="images/ayyash1.jpg" alt="Ayyash" class="my_pic">
+        
+        <p id="welcome">Hi, I am <br><b>
+            <span style="color: #4169E1;">Ayyash</span></b>
+            <span style="color: #404040;">Zamny</span>
+        </p>
+        
+        <div id="typing-container">
+          <span id="typing-effect"></span>
+          <p id="typing-placeholder">&nbsp;</p>
+        </div>
+        
+        <a href="#con" id="contact">Get in touch</a>
+        <script src="typing.js"></script>
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <h2 id="about">About Me</h2>
+        <p id ="myself">Motivated and proactive undergraduate with a strong passion for technology and a diverse range of interests. Seeking a challenging position to leverage my extensive programming skills and acquire hands-on experience in cutting-edge software solutions. As a President Award-winning scout and an international award-winning inventor with three prestigious international awards to my name, I have a proven track record of excelling and innovating in various fields. Alongside my accomplishments, I possess a deep interest in photography and martial arts, holding a brown belt in kickboxing and karate. I bring my dedication to excellence and a keen eye for detail to every project. With a strong aptitude for programming and problem-solving, I am committed to delivering high-quality code and actively contributing to the development of cutting-edge software solutions. Collaborating effectively within cross-functional teams, I strive to drive innovation and exceed project goals.</p>        
+        
+        <br><br><br><br>
+        <h2 id="edu">Education</h2>
+        <br><br>
+        <fieldset>
+			<div class="row">
+			  <div class="column">
+				<img src = "images/sliit_logo.jpg" class = "p2">
+			  </div>
+			  <div class="column1">
+				<h2 >2022 - Present</h2>
+				<h2 >Sri Lanka Institute of Information Technology</h2>
+                <h2 > BSc (Hons) in Information Technology specialized in Software Engineering</h2>
+                <h2 > Year 2 Semester 2</h2>
+			  </div>
+			</div>
+		</fieldset>
+        <br><br>
+        <fieldset>
+			<div class="row">
+			  <div class="column">
+				<img src = "images/schoollogo.jpg" class = "p2">
+			  </div>
+			  <div class="column1">
+				<h2 >2019 - 2021</h2>
+				<h2 >Zahira College Mawanella</h2>
+                <h2 >G.C.E A/L in Physical Science Stream</h2>
+                
+			  </div>
+			</div>
+		</fieldset>
+        <br><br>
+        <fieldset>
+			<div class="row">
+			  <div class="column">
+				<img src = "images/BCAS_logo.png" class = "p2">
+			  </div>
+			  <div class="column1">
+				<h2 >2019</h2>
+				<h2 >BCAS Kandy Campus</h2>
+          <h2 > Diploma in Information Technology</h2>
+          <h2 > Grade : DISTINCTION</h2>
+			  </div>
+			</div>
+		</fieldset>
+
+        <br><br>
+        <h2 id="ts">Technical Skills</h2>
+
+
+        <div class="tyrow">
+          <div class="tycol">
+            <img src="images/html.png" class="icon" >
+          </div>
+          <div class="tycol">
+            <img src="images/css.png" class="icon" >
+          </div>
+          <div class="tycol">
+            <img src="images/js.png" class="icon">
+          </div>
+          <div class="tycol">
+            <img src="images/php.png" class="icon">
+          </div>
+          <div class="tycol">
+            <img src="images/mysql.png" class="icon">
+          </div>
+        </div>
+
+        <div class="tyrow">
+          <div class="tycol">
+            <img src="images/c.png" class="icon" >
+          </div>
+          <div class="tycol">
+            <img src="images/cplus.png" class="icon" >
+          </div>
+          <div class="tycol">
+            <img src="images/java.png" class="icon">
+          </div>
+          <div class="tycol">
+            <img src="images/python.png" class="icon">
+          </div>
+          <div class="tycol">
+            <img src="images/ps.png" class="icon">
+          </div>
+        </div>
+
+        <div class="tyrow">
+          <div class="tycol">
+            <img src="images/bootstrap.png" class="icon" >
+          </div>
+          <div class="tycol">
+            <img src="images/figma.png" class="icon" >
+          </div>
+          <div class="tycol">
+            <img src="images/pr.png" class="icon">
+          </div>
+          <div class="tycol">
+            <img src="images/arduino.png" class="icon">
+          </div>
+          
+        </div>
+       
+        
+        <br><br>
+            <br><br>
+            <h2 id="pro">Projects</h2>
+            <br><br>
+
+            <fieldset id="pro_set">
+              <div class="row">
+                <div class="column">
+                  <img src="images/ARM.png" alt="ARM Medi Lab" id="pro_img">
+                </div>
+                <div class="column1"><br>
+                   <h2 id="pro_head">Medical LIMS Website Development</h2>
+                  <h3 id="pro_list">
+                    <ul style="line-height:136%">
+                      <li>Developed fully functional Medical LIMS website with intuitive UI.</li>
+                      <li>Used HTML, CSS, JavaScript for responsive front-end.</li>
+                      <li>Implemented secure PHP back-end for database interactions. </li>
+                      <li>Collaborated in a team to meet milestones and deliver high-quality product.</li>
+                      <li>Conducted thorough testing, debugging for optimal performance.</li>
+                      <li>Deployed website on production server for seamless user access.</li>
+                    </ul>
+                  </h3><br>
+                  <a href="https://www.youtube.com/watch?v=UGRIaID4Vkg&t=1s" id="contact">Watch Demo</a>
+                </div>
+              </div>
+            </fieldset>
+              <br><br>
+            <fieldset id="pro_set">
+              <div class="row">
+                <div class="column">
+                  <img src="images/ARM.png" alt="ARM Medi Lab" id="pro_img">
+                </div>
+                <div class="column1"><br>
+                   <h2 id="pro_head">Medical LIMS Website Development</h2>
+                  <h3 id="pro_list">
+                    <ul style="line-height:136%">
+                      <li>Developed a Vehicle Rental System website, showcasing front-end and back-end skills.</li>
+                      <li>Designed a responsive UI using HTML, CSS, and JavaScript for an optimal user experience.</li>
+                      <li>Implemented a secure and efficient back-end with Java and structured APIs under the MVC pattern. </li>
+                      <li>Collaborated in a team to meet milestones, ensuring a high-quality product.</li>
+                      <li>Conducted thorough testing and debugging for optimal performance and reliability.</li>
+                    </ul>
+                  </h3><br>
+                  <a href="https://github.com/ayyashzamny/Vehicle-Rental-System.git" id="contact">View Project</a>
+                </div>
+              </div>
+            </fieldset>
+
+
+            <br><br><br><br>
+
+            
+            <h2 id="con">Get in touch</h2>
+            <br><br><br><br>
+
+            <div class="two-col">
+              <div class="col1">
+                <img src="images/me.jpg" alt="Ayyash Zamny" id="me">
+              </div>
+              <div class="col2">
+
+              <a href="https://github.com/ayyashzamny"><div class="smtwo-col">
+                  <div class="smcol1">
+                    <img src = "images/github.png" class = "sm">
+                  </div>
+                  <div class="smcol2">
+                    <p id="sm_name">ayyashzamny</p>
+                  </div>
+                </div>
+              </a>
+                
+
+                <br>
+                <a href="https://www.linkedin.com/in/ayyash-zamny-545971179"><div class="smtwo-col">
+                  <div class="smcol1">
+                    <img src = "images/link.png" class = "sm">
+                  </div>
+                  <div class="smcol2">
+                    <p id="sm_name">ayyash-zamny</p>
+                  </div>
+                </div>
+              </a>
+
+              <br>
+                <a href="https://www.facebook.com/mohmmed.ayyash"><div class="smtwo-col">
+                  <div class="smcol1">
+                    <img src = "images/fb.png" class = "sm">
+                  </div>
+                  <div class="smcol2">
+                    <p id="sm_name">Ayyash Zamny</p>
+                  </div>
+                </div>
+              </a>
+
+              <br>
+                <a href="mailto:ayyashzamny@hotmail.com"><div class="smtwo-col">
+                  <div class="smcol1">
+                    <img src = "images/mail.png" class = "sm">
+                  </div>
+                  <div class="smcol2">
+                    <p id="sm_name">ayyashzamny@hotmail.com</p>
+                  </div>
+                </div>
+              </a>
+
+              <br>
+                <a href="https://instagram.com/ayyashzamny?igshid=MzNlNGNkZWQ4Mg=="><div class="smtwo-col">
+                  <div class="smcol1">
+                    <img src = "images/insta.png" class = "sm">
+                  </div>
+                  <div class="smcol2">
+                    <p id="sm_name">@ayyashzamny</p>
+                  </div>
+                </div>
+              </a>
+
+              <br>
+                <a href="https://twitter.com/AyyashZamny?t=nmlD7FVC_6vvNV4qnf5bPw&s=09"><div class="smtwo-col">
+                  <div class="smcol1">
+                    <img src = "images/tw.png" class = "sm">
+                  </div>
+                  <div class="smcol2">
+                    <p id="sm_name">@AyyashZamny</p>
+                  </div>
+                </div>
+              </a>
+
+              <br>
+                <a href="https://youtube.com/@ayytec"><div class="smtwo-col">
+                  <div class="smcol1">
+                    <img src = "images/yt.png" class = "sm">
+                  </div>
+                  <div class="smcol2">
+                    <p id="sm_name">AyyTec</p>
+                  </div>
+                </div>
+              </a>
+               
+                
+               
+
+
+              </div>
+            </div>
+
+
+
+            <br><br><br><br>
+            <div class="footer">
+              <p> &copy; All rights reserved. Designed by Ayyash Zamny</p>
+            </div>
+            
+
+    </body>
+</html>
